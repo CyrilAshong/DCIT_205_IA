@@ -2,6 +2,15 @@ body{
     font-family: poppins, sans-serif;
     margin-left: 80px;
     margin-right: 80px;
+    background-color: black;
+}
+p{
+    color: grey;
+}
+h1,
+h2,
+h3{
+    color: grey;
 }
 .menu{
     position: fixed;
@@ -9,7 +18,7 @@ body{
     justify-content: space-between;
     width: 90%;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: black;
     padding-top: 20px;
     padding-bottom: 10px;
     padding-right: 75px;
@@ -32,9 +41,10 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin: 10px 10px;
+    color: #fff;
 }
 nav #icon{
-    color: black;
+    color: white;
     font-size: 30px;
     cursor: pointer;
     display: none;
@@ -61,7 +71,7 @@ nav #icon{
         width: 70%;
         height: 100vh;
         background: #2f3640;
-        color: #fff;
+        color: black;
         opacity: 0.95;
         top: 0px;
         left: -150%;
@@ -91,21 +101,27 @@ nav #icon{
 .home,
 .about,
 .faculty,
+.upcoming_events,
+.catalog,
+.shortcourses,
 .research_groups{
     margin-right: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 13px;
 }
 .banner{
     background-image: url(../images/R\ \(2\).jpg);
-    color: white;
+    color: black;
     padding-top: 250px;
     padding-bottom: 50px;
     padding-right: 300px;
     margin-top: 55px;
     background-size: cover;
     font-size: larger;
+}
+.banner p{
+    color: #fff;
 }
 .about_banner{
     background-image: url(../images/green-technology-circle-and-computer-science-abstract-background-with-binary-code-matrix-business-and-connection-futuristic-and-industry-4-0-concept-internet-cyber-and-network-theme-vector.jpg);
@@ -135,6 +151,36 @@ nav #icon{
     padding-bottom: 20px;
     padding-right: 300px;
     margin-top: 15px;
+    background-size: cover;
+    font-size: larger;
+}
+.RSG_banner{
+    background-image: url(../images/OIP\ \(1\).jpg);
+    color: black;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    margin-top: 55px;
+    background-size: cover;
+    font-size: larger;
+}
+.UPE_banner{
+    background-image: url(../images/OIP\ \(2\).jpg);
+    color: black;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    margin-top: 55px;
+    background-size: cover;
+    font-size: larger;
+} 
+.cat_banner{
+    background-image: url(../images/OIP\ \(3\).jpg);
+    color: black;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    margin-top: 55px;
     background-size: cover;
     font-size: larger;
 }
@@ -270,18 +316,24 @@ nav ul li a:hover{
     color: rgba(0, 128, 0, 0.76);
     transition: 0.15s;
 }
-.catalog_area button span a{
+.catalog_preview button span a,
+.short_courses button span a{
     text-decoration: none;
     color: #fff;
 }
-.catalog_area button span a:hover{
+.catalog_preview button span a:hover{
     opacity: 0.7;
 }
-.catalog_area button:hover{
+.short_courses button span a:hover{
+    opacity: 0.7;
+}
+.catalog_preview button:hover,
+.short_courses button:hover{
     opacity: 0.6;
     transition: 0.15;
 }
-.catalog_area button:active{
+.catalog_preview button:active,
+.short_courses button:active{
     opacity: 0.4;
 }
 .staff_cont-1{
@@ -291,6 +343,7 @@ nav ul li a:hover{
     margin-top: 70px;
     margin-right: 9%;
     margin-left: 9%;
+    color: #fff;
    
 }
 .m_attah_img{
@@ -310,6 +363,7 @@ nav ul li a:hover{
     margin-top: 70px;
     margin-right: 30%;
     margin-left: 30%;
+    color: #fff;
 }
 .staff_cont-2 p{
     text-align: center;
@@ -333,8 +387,18 @@ nav ul li a:hover{
     transition: 0.15;
     vertical-align: top;
 }
+.MA_content_2{
+    background-color: rgba(0, 128, 0, 0.76);
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    transition: 0.15;
+    vertical-align: top;
+}
 .MA_content h2:hover{
     color:  rgba(10, 10, 97, 0.993);
+    transition: 0.15s;
     
 }
 .MA_content p{
@@ -363,6 +427,50 @@ nav ul li a:hover{
     padding-right: 30px; 
     padding-bottom: 200px;
       
+}
+.catalog_content_2 h2:hover{
+    color:  rgba(10, 10, 97, 0.993);
+    transition: 0.15s;
+}
+.RSG_img2{
+    width: 70%;
+    vertical-align: middle;
+    margin-left: 15%;
+}
+.RSG_img1{
+    margin-left: 30%;
+}
+.RSG_imgs p{
+    margin-left: 45%;
+}
+.RSG_banner h1{
+    color: black;
+}
+.SM h3{
+    text-align: center;
+}
+.SM{
+    width: 30%;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+.SM p{
+    text-align: center;
+}
+.UPE{
+    text-align: center;
+}
+.PE{
+    width: 40%;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+}
+.PE_img1{
+    width: 100%;
 }
 
 
