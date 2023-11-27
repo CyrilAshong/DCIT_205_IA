@@ -42,3 +42,4 @@ This project was a great experience for me.
 ![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_sports.html.png)
 ![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_contact.html.png)
 ![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_upcomingevents.html.png)
+![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_research.html.png)
