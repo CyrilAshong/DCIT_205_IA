@@ -9,7 +9,8 @@ p{
 }
 h1,
 h2,
-h3{
+h3,
+h4{
     color: grey;
 }
 .menu{
@@ -80,7 +81,7 @@ nav #icon{
     }
     nav ul li{
         display: block;
-        margin: 50px 0;
+        margin: 20px 0;
         line-height: 30px;
     }
     nav a{
@@ -104,6 +105,8 @@ nav #icon{
 .upcoming_events,
 .catalog,
 .shortcourses,
+.sports,
+.contact,
 .research_groups{
     margin-right: 20px;
     text-decoration: none;
@@ -183,6 +186,29 @@ nav #icon{
     margin-top: 55px;
     background-size: cover;
     font-size: larger;
+}
+.contact_banner{
+    background-image: url(../images/OIP\ \(4\).jpg);
+    color: black;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    margin-top: 55px;
+    background-size: cover;
+    font-size: larger;
+}
+.sports_banner{
+    background-image: url(../images/sports-banners-vector-20561990.jpg);
+    color: black;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    margin-top: 55px;
+    background-size: cover;
+    font-size: larger;
+}
+.contact_banner h1{
+    color: black;
 }
 .overview{
     color: grey;
@@ -417,6 +443,7 @@ nav ul li a:hover{
     display: inline-block;
     vertical-align: top;
     padding-right: 30px;
+    margin-right: 20px;
 
 }
 .catalog_content_2{
@@ -472,6 +499,39 @@ nav ul li a:hover{
 .PE_img1{
     width: 100%;
 }
+.CU_overview h2{
+    text-align: center;
+}
+.CU_overview h4,
+.CU_overview p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.num h4,
+.num p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+}
+.num{
+    display: inline-block;
+    width: 30%;
+}
+.mail{
+    display: inline-block;
+    width: 15%;
+    margin-left: 45%;
+}
+.mail h4{
+    text-align: center;
+}
+.FT_vid{
+    justify-content: center;
+    display: flex;
+
+}
+
 
 
 

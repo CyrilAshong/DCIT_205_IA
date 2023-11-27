@@ -30,3 +30,7 @@ This project was a great experience for me.
 1.**Importance of Planning**: Before this project i underestimated the importance of planning. Now, I understand that having a clear plan in place is very crucial for succesful project execution.
 
 2.**Responsive Designs**: I learned a lot about making a website responsive. It was challenging to ensure the website looked good on all devices, but i learned useful techniques like using media queries in CSS.
+
+
+## Screen Shots
+![Screenshot](Screen shots/127.0.0.1_5500_DCIT_205_IA_about.html.png)
