@@ -107,6 +107,7 @@ nav #icon{
 .shortcourses,
 .sports,
 .contact,
+.research,
 .research_groups{
     margin-right: 20px;
     text-decoration: none;
@@ -207,7 +208,18 @@ nav #icon{
     background-size: cover;
     font-size: larger;
 }
-.contact_banner h1{
+.research_banner{
+    background-image: url(../images/OIP\ \(5\).jpg);
+    color: black;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    margin-top: 55px;
+    background-size: cover;
+    font-size: larger;
+}
+.contact_banner h1,
+.research_banner h1{
     color: black;
 }
 .overview{
@@ -531,6 +543,13 @@ nav ul li a:hover{
     display: flex;
 
 }
+.Rimg,
+.Rimg1{
+    display: inline-block;
+    width: 40%;
+    margin-left: 110px;
+}
+
 
 
 
