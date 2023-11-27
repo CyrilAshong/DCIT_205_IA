@@ -34,7 +34,7 @@ This project was a great experience for me.
 
 ## Screen Shots
 ![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_about.html.png)
-![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_Homepage.html.png)
+![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_Hompage.html.png)
 ![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_faculty.html.png)
 ![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_researchgroup.html.png)
 ![Screenshot](Screenshots/127.0.0.1_5500_DCIT_205_IA_catalog.html.png)
